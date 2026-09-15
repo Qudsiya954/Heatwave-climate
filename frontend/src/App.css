@@ -1,0 +1,84 @@
+.dashboard {
+  max-width: 1400px;
+  margin: auto;
+  padding: 32px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  color: #2563eb;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.card,
+.panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 18px #0f172a0d;
+}
+
+.card span {
+  color: #64748b;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card strong {
+  font-size: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.map-panel {
+  min-height: 500px;
+}
+
+.leaflet-container {
+  height: 440px;
+  border-radius: 10px;
+}
+
+.hotspot {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 0;
+}
+
+.advisory {
+  margin-top: 20px;
+}
+
+.loading,
+.error {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 800px) {
+  .cards,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

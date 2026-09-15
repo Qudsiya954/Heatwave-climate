@@ -42,3 +42,13 @@ Thumbs.db
 
 Data/
 data/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
