@@ -10,8 +10,10 @@ import "leaflet/dist/leaflet.css";
 import "./App.css";
 import AuthPanel from "./AuthPanel";
 
-const API =
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API = (
+  import.meta.env.VITE_API_URL ||
+  "https://climate-intelligence-api.onrender.com"
+).replace(/\/+$/, "");
 
 const riskLevels = ["Low", "Moderate", "High", "Critical"];
 const severityLevels = ["Normal", "Moderate", "High", "Extreme"];
