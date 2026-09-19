@@ -1,0 +1,13 @@
+pandas
+numpy
+pyarrow
+joblib
+lightgbm
+xgboost
+scikit-learn
+psycopg[binary]
+python-dotenv
+google-genai
+fastapi
+uvicorn[standard]
+argon2-cffi

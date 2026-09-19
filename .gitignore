@@ -52,3 +52,13 @@ data/
 node_modules/
 dist/
 dist-ssr/
+
+logs/
+
+# Files required by the production batch pipeline
+!Data/
+!Data/processed/
+!Data/processed/imd_temperature_2010_2025.parquet
+
+!models/
+!models/*.joblib
